@@ -16,10 +16,13 @@ public class NewHerencia {
      */
     public static void main(String[] args) {
             pecesito pez_chico = new pecesito("Nadar");
-            
+            Reptil reptil = new Reptil("Repta");
             pez_chico.setAtributo("Nadando");
             
             System.out.println("Que hace el pez?:"+pez_chico.getAtributo());
+            System.out.println("El animal se encuentra: ");
+            //pez_chico.porPagar();
+            reptil.porPagar();
     }
     
 }

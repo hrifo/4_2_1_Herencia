@@ -6,7 +6,7 @@
 package cl.duoc.pgy2121._2_1_herencia;
 
 
-public class Ave extends Animal {
+public class Ave extends Animal implements TiendaInterfaz{
 
     public Ave(String atributo) {
         super(atributo);
